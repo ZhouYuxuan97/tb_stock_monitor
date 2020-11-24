@@ -9,8 +9,8 @@ from threading import Timer
 
 
 def send_email():
-    msg_from = '491118392@qq.com'  # 发送方邮箱
-    passwd = 'dfhjbbahymsibjid'  # 填入发送方邮箱的授权码
+    msg_from = ''  # 发送方邮箱
+    passwd = ''  # 填入发送方邮箱的授权码
     msg_to = 'hizyx97@gmail.com,junkrat@qq.com,yzhou168@syr.edu'  # 收件人邮箱
 
     subject = "[淘宝订单已生成，请尽快付款]"  # 主题
